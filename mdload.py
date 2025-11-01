@@ -68,7 +68,7 @@ def build_base_opts(outdir: str, quiet: bool, cookiefile: Optional[str],
     Retorna opções base para YoutubeDL de acordo com parâmetros.
     - quiet: reduz a verbosidade (quando False, mostra progresso e logs)
     - cookiefile: caminho para arquivo de cookies (Netscape cookies.txt)
-    - username/password: credenciais simples (onde aplicável)
+    - us/pwd: (onde aplicável)
     - headers: dict de cabeçalhos HTTP para passar via 'http_headers'
     """
     opts: Dict[str, Any] = {
